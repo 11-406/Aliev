@@ -6,13 +6,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int p = 11;
-//        boolean flag = true;
-//        for(int i = 0; i < 10; i++) {
-//            if(alg2(p) == false) {
-//                flag = false;
-//                break;
-//            }
-//        }
         System.out.println(alg1(p));
         System.out.println(alg2(p));
 
