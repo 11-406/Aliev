@@ -43,7 +43,7 @@ public class Timsort {
             stack.push(new Run(run1.start, run1.length + run2.length));
         }
     }
-
+    // нахождение минимальной серии
     private static int minRunLength(int n) {
         int r = 0;
         while (n >= MIN_MERGE) {
